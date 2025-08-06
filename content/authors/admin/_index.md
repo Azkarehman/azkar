@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Azka Rehman
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation:
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Azka
+last_name: Rehman
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,134 +20,163 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: AI Researcher/ AI Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Seoul National University
+    url: https://en.snu.ac.kr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'azkarehman2598@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Azkarehman
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url:  https://www.linkedin.com/in/azka-rehman-097640178/)
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=l_B-GWgAAAAJ&hl=en
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Medical Imaging
+  - Opportunistic AI
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MS in Biomedical Science
+    institution: Seoul National University (SNU)
+    date_start: 2023-09-01
+    date_end: 2025-08-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Thesis: AI-Driven Opportunistic Screening for Cardiovascular Disease Risk Using Abdominal CT Scans.
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+      Featured courses:
+      - Topics in Data Science
+      - Natural Language Processing
+      - Information Retrieval
+
+  - area: BS in Electrical Engineering
+    institution: National University of Sciences and Technology (NUST)
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Thesis: Chest X-Ray Abnormality Detection using Deep Learning.
+
+      Featured courses:
+      - Artificial Intelligence
+      - Computer Vision
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - position: Medical AI Researcher
+    company_name: Health System Data Science (HSDS) Lab, Seoul National University
+    company_url: https://snuhsds.notion.site/Health-System-Data-Science-Lab-07d8299caed84983bccac94e02726f91
+    date_start: 2023-09-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Working under the supervision of Dr. Sang Min Park in the Department of Biomedical Sciences.
+      - Conducting research on leveraging AI and data science to solve challenges in healthcare systems.
+      - Participating in projects involving health data analysis, predictive modeling, and medical image analysis.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+  - position: AI Research Engineer
+    company_name: HealthHub.kr
+    company_url: https://healthhub.kr/
+    date_start: 2021-01-01
+    date_end: 2023-07-31
+    summary: |
+      - Researched and implemented state-of-the-art deep learning methods in medical image analysis.
+      - Built AI-powered diagnostic tools using computer vision and deep learning techniques.
+      - Integrated AI solutions into the DICOMLINK system to optimize performance and scalability.
+      - Mentored new engineers, supporting onboarding and technical training.
+
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Image Processing
+        description: ''
+        percent: 90
+        icon: image
+      - name: Medical Imaging / DICOM
+        description: ''
+        percent: 95
+        icon: hospital
+      - name: Machine Learning & Deep Learning
+        description: ''
+        percent: 90
+        icon: brain
+      - name: Data Analysis & Visualization
+        description: ''
+        percent: 85
+        icon: chart-bar
+      - name: Natural Language Processing
+        description: ''
+        percent: 70
+        icon: language
+      - name: Algorithm Development
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+        icon: puzzle-piece
+      - name: Front-End Development
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: display
+
+  - name: Languages & Frameworks
+    items:
+      - name: Python
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: code-bracket
+      - name: TensorFlow / Keras / PyTorch / FastAI
         description: ''
-        percent: 80
+        percent: 90
+        icon: atom
+      - name: Scikit-learn / Scikit-image
+        description: ''
+        percent: 85
+        icon: beaker
+      - name: OpenCV / SimpleITK / Pydicom
+        description: ''
+        percent: 85
         icon: camera
+      - name: MATLAB / Tkinter
+        description: ''
+        percent: 70
+        icon: calculator
+      - name: ReactJS / NodeJS
+        description: ''
+        percent: 60
+        icon: globe
+
+  - name: Tools & Platforms
+    items:
+      - name: Linux (Ubuntu, CentOS)
+        description: ''
+        percent: 95
+        icon: terminal
+      - name: Docker / Git / MLFlow
+        description: ''
+        percent: 90
+        icon: cube
+      - name: AWS Cloud Services
+        description: ''
+        percent: 70
+        icon: cloud
+      - name: MySQL / MongoDB
+        description: ''
+        percent: 65
+        icon: database
+
 
 languages:
   - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 90
+  - name: Korean
+    percent: 10
+  - name: Urdu
+    percent: 90
 
 # Awards.
 #   Add/remove as many awards below as you like.
