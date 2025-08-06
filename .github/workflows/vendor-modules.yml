@@ -11,6 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Set up Go (required for Hugo Modules)
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.19'
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -26,10 +31,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          if [ -d "vendor" ]; then
-            git add vendor
-            git commit -m "Vendor Hugo modules via GitHub Action" || echo "No changes to commit"
-            git push
-          else
-            echo "No vendor directory created. Skipping commit."
-          fi
+          git add vendor
+          git commit -m "Vendor Hugo modules via GitHub Action" || echo "No changes to commit"
+          git push
