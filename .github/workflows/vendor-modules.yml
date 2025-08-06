@@ -1,0 +1,31 @@
+name: Vendor Hugo Modules
+
+on:
+  workflow_dispatch:
+
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.121.1'
+          extended: true
+
+      - name: Vendor Hugo Modules
+        run: |
+          hugo mod tidy
+          hugo mod vendor
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add vendor
+          git commit -m "Vendor Hugo modules via GitHub Action" || echo "No changes to commit"
+          git push
