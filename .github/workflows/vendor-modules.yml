@@ -26,6 +26,10 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add vendor
-          git commit -m "Vendor Hugo modules via GitHub Action" || echo "No changes to commit"
-          git push
+          if [ -d "vendor" ]; then
+            git add vendor
+            git commit -m "Vendor Hugo modules via GitHub Action" || echo "No changes to commit"
+            git push
+          else
+            echo "No vendor directory created. Skipping commit."
+          fi
