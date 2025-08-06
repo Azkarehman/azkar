@@ -215,9 +215,9 @@ certifications:
     awarder: Udemy
     date: 2023-01-15
     icon: udemy
-
+---
 
 ## About Me
 
 Azka Rehman is an AI researcher at the Health System Data Science Lab, Seoul National University. His work focuses on developing deep learning and computer vision models for medical imaging, with a particular interest in opportunistic screening and disease risk prediction using radiological data. He has contributed to projects involving CT scans, X-rays, and multimodal neuroimaging, aiming to bridge cutting-edge machine learning with real-world healthcare impact. His research combines technical depth with translational focus, advancing automated diagnostics, risk stratification, and medical AI deployment.
----
+
